@@ -1236,7 +1236,7 @@ input, select, textarea {
 					}
 
 					.row.gtr-50.gtr-uniform {
-						margin-top: -20px;
+						margin-top: 0;
 					}
 
 						.row.gtr-50.gtr-uniform > * {
@@ -1996,13 +1996,27 @@ input, select, textarea {
 
 		ul.divided li {
 			border-top: solid 1px #ddd;
-			padding: 1em 0 1em 0;
+			padding: 1em 0 0 0;
 		}
 
 			ul.divided li:first-child {
 				border-top: 0;
 				padding-top: 0;
 			}
+
+/* No Bullets*/
+	ul.no-bullets {
+    	list-style: none;
+    	padding-left: 0;
+	}
+
+	.col-4 ul.divided {
+    margin-top: 0;
+    padding-left: 0; /* To remove extra indent */
+	}
+
+
+			
 
 /* Social */
 
