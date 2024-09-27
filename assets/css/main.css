@@ -1949,7 +1949,7 @@ input, select, textarea {
 		ul.dates li {
 			position: relative;
 			border-top: solid 1px #ddd;
-			padding: 1.3em 0 0 8.75em;
+			padding: 1.3em 0 0 10.75em;
 		}
 
 		ul.dates .date {
