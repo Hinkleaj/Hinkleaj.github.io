@@ -1,695 +1,862 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Aaron Hinkle Portfolio Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="./assets/css/main.css" />
+<!DOCTYPE html>
+<html lang="en">
 
-	<!-- Favicon stuff -->
-		<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-		<link rel="manifest" href="./favicon/site.webmanifest">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - DevFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-			<!-- Header -->
-				<section id="header">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul style="margin-top: -80px;">
-								<li><h2> Aaron Jay Hinkle:&nbsp;&nbsp;&nbsp;Machine designer with a passion for digital fabrication&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>								
-								</li>
-					
-						
-					
-					
-								
-								<li>
-									<a href="#">Portfolio</a>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-									<ul>
-										<li><a href="#TseNCPro">TseNC-Pro CNC Machine</a></li>
-										<li><a href="#CastingMachine">Centrifugal Casting Machine</a></li>
-										<li><a href="#WorldMap">Interactive World Map</a></li>
-										<li><a href="#Ceilometer">LIDAR Ceilometer</a></li>
-										<li><a href="#IVPSolver">IVP Solver</a></li>
-										<li><a href="#ROSRobot">ROS Robot</a></li>
-										<li><a href="#SegweyRobot">Segwey Robot</a></li>
-										<li>
-											<a href="#">Fab Academy</a>
-											<ul>
-												<li><a href="#">World Map</a></li>
-												<li><a href="#">Satshakit</a></li>
-												<li><a href="#">Clock</a></li>
-												<li><a href="#">Nisl sed aliquam</a></li>
-												<li><a href="#">Dolore adipiscing</a></li>
-											</ul>
-										</li>
-										
-									</ul>
-								</li>
-								<li><a href="#footer">Education</a></li>
-								<li><a href="#skills-contact">Skills</a></li>
-								<li><a href="#skills-contact">Contact</a></li>
-							</ul>
-						</nav>
+  
+  
+</head>
 
-					<!-- Banner 
-						<section id="banner">
-							<div class="container">
-								<div class="row">
-									<div class="col-9 col-12-medium"> <!- - Text occupies 3/4th - ->
-										<header>
-											<h2>Hello, I'm Aaron Hinkle.</h2>
-											<p class="indent", align="justify">text</p>
-										</header>
-									</div>
-									<div class="col-3 col-12-medium"> <!- - Image occupies 1/4th - ->
-										<img src="./images/BioPicSkinny.jpg" alt="Aaron Hinkle" height="900" style="margin-top: -20px;">
-									</div>
-								</div>
-							</div>
-						</section>-->
-						
-						<hr class="custom-line">
+<body class="index-page">
 
-					<!-- Intro -->
-						<section id="intro" class="containerPopUp" style="margin-top: 80px;">
-							
-							<header class="major">
-								<h2>Portfolio</h2>
-							</header>
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-						<!-- TseNC-Pro CNC Machine -->
-							<h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">TseNC-Pro CNC Machine</h3>											
-							<div id="TseNCPro" class="row">
-								<div class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/TseNCPro01.JPG" alt="TseNCPro01" class="zoomable-image" data-image="./images/TseNCPro01.JPG" />
-                						</i>										
-										<h3>What:</h3>										
-										<p> 
-											<li align="justify">Commissioned redesign of an open source CNC machine to solve the problems of the original</li>
-											<li align="justify">Automate chip removal in the form of a flood coolant system and enclosure</li>
-											<li align="justify">The new machine should be able to cut metal all day long without supervision</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/TseNCPro02.png" alt="TseNCPro02" class="zoomable-image" data-image="./images/TseNCPro02.png" />
-                						</i>
-										<h3>How:</h3>
-										<p> 
-											<li align="justify">Designed using Solidworks</li>
-											<li align="justify">Coolant system pushes chips to one end of the bed where the coolant is filtered and recirculated</li>
-											<li align="justify">Hanging the gantry below the cutting bed prevents chip buildup on the linear rails</li>
-											<li align="justify">Created a comprehensive BOM including Make-or-Buy decisions and vendor sourcing for COTs parts</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<img src="./images/TseNCPro03.png" alt="TseNCPro03" class="zoomable-image" data-image="./images/TseNCPro03.png" />
-                						</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">Created engineering drawings for over 100 parts</li>
-											<li align="justify">Created an assembly manual with each step illustrated using exploded CAD assemblies</li>
-											<li align="justify">Solved the problems of the original, improved the functionality of the original, and gave the improved version back to the open source community</li>
-											<a href="https://github.com/Hinkleaj/TseNC-Pro_CNC_Machine">Files and Documentation</a>
-										</p>
-									</section>
-								</div>
-							</div>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Aaron Jay Hinkle</h1>
+      </a>
 
-						<!-- Centrifugal Casting Machine -->
-							<h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">Centrifugal Casting Machine</h3>
-							<div id="CastingMachine" class="row">
-								<div class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/CastingMachine01.png" alt="CastingMachine01" class="zoomable-image" data-image="./images/CastingMachine01.png" />
-                						</i>
-										<h3>What:</h3>
-										<p> 
-											<li align="justify">Design and build a casting machine for a university lab where students can cast soft metals with melting temperatures up to 1080°C</li>
-											<li align="justify">It should be able to cast a range of materials with densities from Al (2560 kg/m3) to Au (19320 kg/m3)</li>
-											<li align="justify">It should be able to cast parts with intricate detail (up to 25 𝜇𝑚)</li>
-											<li align="justify">It should fit standard COTS components</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/CastingMachine02.png" alt="CastingMachine02" class="zoomable-image" data-image="./images/CastingMachine02.png" />
-                						</i>
-										<h3>How:</h3>
-										<p> 
-											<li align="justify">Began with fluid mechanic calculations to determine the required force and torque and then worked backward following the flow of forces through the full machine</li>
-											<li align="justify">Extensive calculations done on dynamic force flow and stress analysis</li>
-											<li align="justify">CAD and fabrication plan created using Solidworks</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<img src="./images/CastingMachine03.png" alt="CastingMachine03" class="zoomable-image" data-image="./images/CastingMachine03.png" />
-                						</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">Designed, fabricated and assembled mechanical components</li>
-											<li align="justify">Designed and assembled the electronic components and tweaked the controller firmware to work with the purchased motor</li>
-											<li align="justify">Created standard operating procedure based on German safety standards</li>
-											<a href="https://github.com/Hinkleaj/Centrifugal_Casting_Machine">Files and Documentation</a>
-										</p>
-									</section>
-								</div>
-							</div>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li class="dropdown"><a href="#portfolio"><span>Portfolio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#TseNC-Pro">TseNC-Pro CNC Machine</a></li>              
+              <li><a href="#CastingMachine">Centrifugal Casting Machine</a></li>
+              <li><a href="#WorldMap">Interactive World Map</a></li>
+              <li><a href="#Ceilometer">LIDAR Ceilometer</a></li>
+              <li><a href="#IVPSolver">IVP Solver</a></li>
+              <li><a href="#ROSRobot">ROS Robot</a></li>
+              <li><a href="#SegwayRobot">Lego NXT Segway Robot</a></li>
+<!--          <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>   -->
+            </ul>
+          </li>
+          <li><a href="#education" class="active">Education<br></a></li>
+          <li><a href="#skills">Technical Skills</a></li>
+          <li><a href="#testimonials">References</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-						<!-- Interactive World Map -->
-							<h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">Interactive World Map</h3>
-							<div class="row">
-								<div id="WorldMap" class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/WorldMap01.JPG" alt="WorldMap01" class="zoomable-image" data-image="./images/WorldMap01.JPG" />
-										</i>
-										<h3>What:</h3>
-										<p> 
-											<li align="justify">Interactive world map made of six panels in a 2x3 arrangement on a single backplate</li>
-											<li align="justify">Each panel lights up with gesture control, and a sensor activates or deactivates the lights for specific parts of the map</li>
-											<li align="justify">The map is shallow and made to hide electronics and wiring, designed to fit seamlessly as a wall piece</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/WorldMap02.jpg" alt="WorldMap02" class="zoomable-image" data-image="./images/WorldMap02.jpg" />
-										</i>
-										<h3>How:</h3>
-										<p> 
-											<li align="justify">Solidworks design and Fusion 360 CAMs</li>
-											<li align="justify">Used ATMega328P in a homemade Arduino clone for gesture detection and control of LED strips programmed in Arduino IDE</li>
-											<li align="justify">Made electronic blueprint and schematic with KiCAD, milled PCB and populated by hand</li>											
-											<li align="justify">3D printed parts route and manage cables and an enclosure for system packaging</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<video src="./images/WorldMap03.mp4" alt="WorldMap03" class="video zoomable-image" data-image="./images/WorldMap03.mp4" autoplay loop muted></video>
-										</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">Completed a fully functional interactive world map with hidden electronics, sleek design, and backlit panels</li>
-											<li align="justify">Successfully integrated gesture control with ultrasonic sensors to activate lighting</li>
-											<li align="justify">Aesthetic and functional piece that blends art and smart technology with minimal visible hardware</li>
-											<a href="https://hinkleaj.github.io/Interactive_World_Map/">Files and Documentation</a>
-										</p>
-									</section>
-								</div>
-							</div>
+    </div>
+  </header>
 
-						<!-- LIDAR Ceilometer -->
-							<h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">LIDAR Ceilometer</h3>
-							<div id="Ceilometer" class="row">
-								<div class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/Ceilometer01.png" alt="Ceilometer01" class="zoomable-image" data-image="./images/Ceilometer01.png" />
-										</i>
-										<h3>What:</h3>
-										<p> 
-											<li align="justify">R&D project focused on more accurate limitation of the maximum flight altitude for local pilots funded by a grant from Interreg Deutchland Nederland</li>											
-											<li align="justify">Create proof of concept for a LIDAR device to measure the altitude of the cloud base in real time</li>
-											<li align="justify">5-month internship at the Institute for Energy Transformation</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/Ceilometer02.png" alt="Ceilometer02" class="zoomable-image" data-image="./images/Ceilometer02.png" />
-										</i>
-										<h3>How:</h3>
-										<p> 
-											<li align="justify">Designed a device from a mix of COTS and custom parts based on calculations and research</li>
-											<li align="justify">Solidworks for CAD design and Fusion360 for CAM</li>
-											<li align="justify">Used Eagle to help design blueprint and schematic for PCBs for both the laser and detector circuits</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<img src="./images/Ceilometer03.png" alt="Ceilometer03" class="zoomable-image" data-image="./images/Ceilometer03.png" />
-										</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">Chose suitable laser, Multi-Pixel Photon Counter, band pass filter and lenses</li>
-											<li align="justify">Designed and fabricated custom lens collimation tube and optics mounting system</li>
-											<li align="justify">Built the necessary circuits and achieved proof of concept for the device</li>
-											<a href="javascript:void(0)">Proprietary Project</a>
-										</p>
-									</section>
-								</div>
-							</div>
+  <main class="main">
 
-						<!-- IVP Solver -->
-							<h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">IVP Solver</h3>
-							<div id="IVPSolver" class="row">
-								<div class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/IVPSolver01.png" alt="IVPSolver01" class="zoomable-image" data-image="./images/IVPSolver01.png" />
-										</i>
-										<h3>What:</h3>
-										<p> 											
-											<li align="justify">Co-project with Sophia Döring aimed at implementing three different numerical methods for solving IVPs</li>
-											<li align="justify">Comparing efficiency and accuracy of solvers using different types of test problems with known analytical solutions</li>
-											<li align="justify">Implement project in MATLAB</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/IVPSolver02.png" alt="IVPSolver02" class="zoomable-image" data-image="./images/IVPSolver02.png" />
-										</i>
-										<h3>How:</h3>
-										<p> 											
-											<li align="justify">Methods: constant step size implicit Euler solver using Newton-Raphson method, adaptive step algorithm based on ratio between first and second derivatives, and adaptive step algorithm based on minimizing MSE</li>
-											<li align="justify">Test problems: Linear differential equation, a nonlinear differential equation, and an ODE with variable coefficients</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<img src="./images/IVPSolver03.png" alt="IVPSolver03" class="zoomable-image" data-image="./images/IVPSolver03.png" />
-										</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">Demonstrated advantages of using adaptive step size algorithms for numerical simulations, particularly for solving stiff differential equations or problems with rapidly varying solutions</li>
-											<li align="justify">Code is annotated and presented in detail, in a clear and easy-to-follow format</li>
-											<li align="justify">Externally relevant results and discussion</li>
-											<a href="https://github.com/Hinkleaj/IVP_Solver">Files and Documentation</a>
-										</p>
-									</section>
-								</div>
-							</div>
-
-						<!-- ROS Robot -->
-							<h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">ROS Robot</h3>
-							<div id="ROSRobot" class="row">
-								<div class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/ROSRobot01.png" alt="ROSRobot01" class="zoomable-image" data-image="./images/ROSRobot01.png" />
-										</i>
-										<h3>What:</h3>
-										<p> 
-											<li align="justify">TurtleBot-based project utilizing ROS for autonomous environment mapping in both simulated and real-world environments</li>
-											<li align="justify">Created and configured a ROS workspace to implement publisher/subscriber nodes and robot control scripts</li>
-											<li align="justify">Used simulation (Gazebo, RVIZ) and physical TurtleBot to map environments and perform autonomous navigation</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/ROSRobot02.png" alt="ROSRobot02" class="zoomable-image" data-image="./images/ROSRobot02.png" />
-										</i>
-										<h3>How:</h3>
-										<p> 
-											<li align="justify">Set up ROS Indigo in Linux/Ubuntu, created workspaces, and built packages using <code>catkin_make</code> and <code>catkin_create_pkg</code></li>
-											<li align="justify">Simulated movements in Gazebo, used RVIZ to visualize sensor data, and scripted actions in Python</li>
-											<li align="justify">Mapped environments using ROS Gmapping and Python scripts to autonomously navigate bot through target points</li>
-											<li align="justify">Remotely connected, launched ROS nodes, and controlled bot using gamepads and teleop packages</li>										
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<img src="./images/ROSRobot03.jpg" alt="ROSRobot03" class="zoomable-image" data-image="./images/ROSRobot03.jpg" />
-										</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">Successfully implemented ROS nodes for real-time communication and robot control</li>
-											<li align="justify">Demonstrated environment mapping and navigation in both simulated and real-world settings</li>
-											<li align="justify">Achieved smooth obstacle avoidance and goal-oriented navigation</li>
-											<li align="justify">Developed reusable scripts for future navigation tasks and ensured reliable map-saving functionality</li>
-											<a href="javascript:void(0)">Proprietary Project</a>
-										</p>
-									</section>
-								</div>
-							</div>
-						
-						<!-- Lego NXT Segway Robot -->
-							<h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">Lego NXT Segway Robot</h3>
-							<div id="SegwayRobot" class="row">
-								<div class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/SegwayRobot01.png" alt="SegwayRobot01" class="zoomable-image" data-image="./images/SegwayRobot01.png" />
-										</i>
-										<h3>What:</h3>
-										<p> 
-											<li align="justify">Program a Lego NXT Segway using MATLAB Simulink to implement a controller in the model</li>
-											<li align="justify">Simulate both linear and nonlinear systems and compare them using reasonable initial conditions</li>
-											<li align="justify">Create a state space controller to control the robot</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/SegwayRobot02.png" alt="SegweyRobot" class="zoomable-image" data-image="./images/SegwayRobot02.png" />
-										</i>
-										<h3>How:</h3>
-										<p> 
-											<li align="justify">Set up a non-linear model of the plant based on differential equations, linearized the system, and generated State Space Model from state equations</li>
-											<li align="justify">Checked for controllability using pole placement method to obtain the controller gains for the state space controller</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<video src="./images/SegwayRobot03.mp4" alt="SegwayRobot03" class="video zoomable-image" data-image="./images/SegwayRobot03.mp4" autoplay loop muted></video>
-										</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">Generated a closed loop control system for the state space sodel and plotted results for comparison</li>
-											<li align="justify">Implemented State Space controller and applied it to the non-linear model</li>
-											<li align="justify">Achieved stable control of physical Segway Robot</li>
-											<a href="javascript:void(0)">Proprietary Project</a>
-										</p>
-									</section>
-								</div>
-							</div>
-
-						<!-- Project -->
-							<!-- <h3 align="left" style="margin-top: -10px; margin-bottom: -80px;">Project Name</h3>
-							<div class="row">
-								<div id="ProjectName" class="col-4 col-12-medium">
-									<section class="first">
-										<i class="image featured">
-											<img src="./images/CastingMachine01.png" alt="EvoAlgoSolver01" class="zoomable-image" data-image="./images/TseNCPro01.JPG" />
-										</i>
-										<h3>What:</h3>
-										<p> 
-											<li align="justify">stuff</li>
-											<li align="justify">things</li>
-											<li align="justify">more</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="middle">
-										<i class="image featured">
-											<img src="./images/CastingMachine02.png" alt="EvoAlgoSolver02" class="zoomable-image" data-image="./images/TseNCPro02.png" />
-										</i>
-										<h3>How:</h3>
-										<p> 
-											<li align="justify">stuff</li>
-											<li align="justify">things</li>
-											<li align="justify">more</li>
-										</p>
-									</section>
-								</div>
-								<div class="col-4 col-12-medium">
-									<section class="last">
-										<i class="image featured">
-											<img src="./images/CastingMachine03.png" alt="EvoAlgoSolver03" class="zoomable-image" data-image="./images/TseNCPro03.png" />
-										</i>
-										<h3>Result:</h3>
-										<p> 
-											<li align="justify">stuff</li>
-											<li align="justify">things</li>
-											<li align="justify">more</li>
-										</p>
-									</section>
-								</div>
-							</div> -->
-
-						</section>
-
-						<!-- Modal for full-screen image -->
-						<div id="image-modal" class="modal">
-							<span id="close-modal" class="close">&times;</span>
-							<img class="modal-content" id="modal-image">
-						</div>
-
-				</section>
+    
+    
 
 
-			<!-- Footer -->
-				<section id="footer">
-					<header class="major" >
-						<h2 style="color: rgb(0, 0, 0); font-size: 1.75em" >My Education</h2>
-					</header>
-					<div class="container" style="margin-top: 40px;">
-						
-						<div class="row">
-							<div class="col-7 col-12-medium">
-								<section>
-									<h3>MSc in Bionics</h3>
-										<p class="skinny">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Focus field: Robotics</p>
-									<ul class="dates">
-										<li>											
-											<span class="date">2021-<br>2024</span>
-											<h3><a href="#">Rhine-Waal University of Applied Science, Kleve Germany</a></h3>
-											<p><a href="#">Courses I took</a></p>
-										</li>										
-									</ul>
-								</section>
-								<section>
-									<h3>BSc in Mechanical Engineering</h3>
-										<p class="skinny">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Focus field: Simulation and Validation</p>
-									<ul class="dates">
-										<li>											
-											<span class="date">2016-<br>2021</span>
-											<h3><a href="#">Rhine-Waal University of Applied Science, Kleve Germany</a></h3>
-											<p><a href="#">Courses I took</a></p>
-										</li>	
-									</ul>
-								</section>
-								<section>
-									<h3 class="vert-space">BSc in Physics (incomplete)</h3>
-									<ul class="dates">
-										<li>
-											
-											<span class="date">2011-<br>2013</span>
-											<h3><a href="#">Indiana/ Purdue University, Fort Wayne Indiana</a></h3>
-											<p><a href="#">Courses I took</a></p>
-										</li>
-									</ul>
-								</section>
-								<section>
-									<h3 class="vert-space">BA in Secondary Education (incomplete)</h3>
-									<ul class="dates">
-										<li>
-											<span class="date"> 2003-<br>2005 </span>
-											<h3><a href="#">Saint Francis University, Fort Wayne Indiana</a></h3>
-											<p><a href="#">Courses I took</a></p>
-										</li>
-										<li>
-											
-											<span class="date">2002-<br>2003</span>
-											<h3><a href="#">Taylor University, Fort Wayne Indiana</a></h3>
-											<p><a href="#">Courses I took</a></p>
-										</li>
-									</ul>
-								</section>
 
-							</div>
-							<div class="col-5 col-12-medium">
-								<section>
-									<h3 class="vert-space">Fab Academy</h3>
-									<a href="#" class="image featured"><img src="./images/FAScreenshot.png" alt="" /></a>
-									<p class="indent", align="justify">
-										<a href="https://fabacademy.org">Fab Academy</a> is a program focused digital fabrication. The pedagogical foundations come from MIT's renowned rapid prototyping course, "How to Make (Almost) Anything". The curriculum is structured around 20 week-long intensive seminars that cover both core and interdisciplinary aspects of rapid prototyping. Students plan and execute a new project each week and comprehensively document it on a personal website and GIT repo, resulting in unique portfolios of technical accomplishments. The course culminates in a final project, where participants apply the breadth of their learning to bring a big idea into reality.
-									</p>
-									<footer>
-										<ul align="center", class="actions">
-											<li><a href="https://fabacademy.org/2022/labs/kamplintfort/students/aaron-hinkle/index.html" class="button">My Fab Academy website</a></li>
-										</ul>
-									</footer>
-								</section>
-							</div>
-							
-							
-							<section id="skills-contact" class="container" style="margin-top: 20px;">
-								<div class="row">
-									<div class="col-8 col-12-medium">
-										<header class="major">
-											<h2 style="color: rgb(0, 0, 0); font-size: 1.75em;">Technical Skills</h2>
-										</header>
-									</div>
-									<div class="col-4 col-12-medium">
-										<header class="major">
-											<h2 style="color: rgb(0, 0, 0); font-size: 1.75em;">Contact</h2>
-										</header>
-									</div>
-								</div>
-							</section>
-							
-								<div class="col-3 col-6-medium col-12-small">
-									<section>
-										<h3 style="margin-top: -20px;">Hard Skills</h3>
-										<ul class="divided">
-											<li><a href="#">Machine Design</a></li>
-											<li><a href="#">Mechanical Engineering</a></li>
-											<li><a href="#">Design Engineering</a></li>
-											<li><a href="#">3D Modeling / CAD / CAM</a></li>
-											<li><a href="#">University Teaching</a></li>
-											<li><a href="#">Laboratory Management</a></li>
-											<li><a href="#">Conventional Machining</a></li>
-											<li><a href="#">Creative Problem Solving</a></li>
-											<li><a href="#">Web Design</a></li>
-											<li><a href="#">GitHub</a></li>
-											<li><a href="#">Computer Simulation and Validation</a></li>
-											<li><a href="#">Artificial Intelligence</a></li>
-											<li><a href="#">Machine Learning</a></li>
-											<li><a href="#">Remote Sensing</a></li>
-											<li><a href="#">Evolutionary Algorithms</a></li>
-										</ul>										
-										<h3 style="margin-top: -20px;">Soft Skills</h3>				
-										<ul class="divided">
-											<li><a href="#">Project Management</a></li>
-											<li><a href="#">Time Management</a></li>
-											<li><a href="#">Organization Skills</a></li>
-											<li><a href="#">Team Leadership</a></li>
-											<li><a href="#">Communication</a></li>
-										</ul>										
-									</section>
-								</div>								
-								<div class="col-3 col-6-medium col-12-small">
-									<section>
-										<h3 style="margin-top: -20px;">Digital Fabrication</h3>			
-										<ul class="divided">
-											<li><a href="#">3D Printing</a></li>
-											<li><a href="#">CNC Machining</a></li>
-											<li><a href="#">Laser Cutting</a></li>
-											<li><a href="#">Electronics Hardware Design</a></li>
-											<li><a href="#">PCB Design</a></li>
-											<li><a href="#">Vinyl Cutting</a></li>
-											<li><a href="#">Mold Design</a></li>
-											<li><a href="#">Casting</a></li>
-											<li><a href="#">Embedded Programming</a></li>
-											<li><a href="#">3D Scanning</a></li>
-											<li><a href="#">Soldering</a></li>
-											<li><a href="#">Arduino / IDE</a></li>
-											<li><a href="#">CNC Embroidery</a></li>
-										</ul>
-										<h3 style="margin-top: -20px;">Programming Languages</h3>
-										<ul class="divided">
-											<li><a href="#">C++</a></li>
-											<li><a href="#">HTML/CSS</a></li>
-											<li><a href="#">MATLAB</a></li>
-											<li><a href="#">Simulink</a></li>
-											<li><a href="#">Java</a></li>
-											<li><a href="#">Python</a></li>
-											<li><a href="#">LaTeX</a></li>
-										</ul>
-									</section>
-								</div>
-								<div class="col-3 col-6-medium col-12-small">
-									<section>
-										<h3 style="margin-top: -20px;">Software</h3>
-										<ul class="divided">
-											<li><a href="#">SOLIDWORKS</a></li>
-											<li><a href="#">Autodesk Fusion 360</a></li>
-											<li><a href="#">Bash Terminal</a></li>
-											<li><a href="#">Visual Studio Code</a></li>
-											<li><a href="#">Universal Gcode Sender</a></li>
-											<li><a href="#">VisiCut</a></li>
-											<li><a href="#">Inkscape</a></li>
-											<li><a href="#">ANSYS Static Structural</a></li>
-											<li><a href="#">KiCAD</a></li>
-											<li><a href="#">MIT Mods</a></li>
-											<li><a href="#">Candle</a></li>
-											<li><a href="#">Blender</a></li>
-											<li><a href="#">Ultimaker Cura</a></li>
-											<li><a href="#">JupyterLab</a></li>
-										</ul>										
-									</section>
-								</div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
 
-								<div class="col-3 col-6-medium col-12-small">
-									<section>										
-										<ul class="contact">
-											<li>
-												<h3>Social Media</h3>
-												<p>
-													<a href="https://www.linkedin.com/in/aaron-hinkle-545ba0251/" class="button">LinkedIn</a>
-												</p>
-											</li>
-											<li>
-												<h3>Address</h3>
-												<p>
-													Untitled Incorporated<br />
-													1234 Somewhere Road Suite<br />
-													Nashville, TN 00000-0000
-												</p>
-											</li>
-											<li>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>...a few of my favorite projects to show off some of my skills...</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+<!--    <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Machines</li>
+            <li data-filter=".filter-product">Robotics</li>
+            <li data-filter=".filter-branding">Research</li>
+            <li data-filter=".filter-books">Fun</li>
+          </ul><!- End Portfolio Filters ->
+-->
+          
+            <!-- Project Group: TseNC-Pro CNC Machine -->
+            <section id="TseNC-Pro" class="skinny" >
+            <div class="project-group col-12">
+              <h3 class="project-title">TseNC-Pro CNC Machine</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <img src="assets/img/portfolio/TseNCPro01.JPG" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 
+                      <li align="justify">Commissioned redesign of an open source CNC machine to solve the problems of the original</li>
+                      <li align="justify">Automate chip removal in the form of a flood coolant system and enclosure</li>
+                      <li align="justify">The new machine should be able to cut metal all day long without supervision</li>
+                    </p>
+                    <a href="assets/img/portfolio/TseNCPro01.JPG" title="Engineering drawings of every unique part" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                    <img src="assets/img/portfolio/TseNCPro02.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>How</h4>
+                  <p> 
+                    <li align="justify">Designed using Solidworks</li>
+                    <li align="justify">Coolant system pushes chips to end of the bed where the coolant is filtered and recirculated</li>
+                    <li align="justify">Hanging the gantry below the cutting bed prevents chip buildup on the linear rails</li>
+                    <li align="justify">Created a comprehensive BOM including Make-or-Buy decisions and vendor sourcing for COTs parts</li>
+                  </p>
+                  <a href="assets/img/portfolio/TseNCPro02.png" title="Assembly manual showing every step in exploded assemblies" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <img src="assets/img/portfolio/TseNCPro03.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Result</h4>
+                    <p> 
+                      <li align="justify">Created engineering drawings for over 100 parts</li>
+                      <li align="justify">Created an assembly manual with each step illustrated using exploded CAD assemblies</li>
+                      <li align="justify">Solved the problems of the original, improved the functionality of the original, and gave the improved version back to the open source community</li>
+                    </p>
+                    <a href="assets/img/portfolio/TseNCPro03.png" title="Final CAD design" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://github.com/Hinkleaj/TseNC-Pro_CNC_Machine" title="Files & Documentation" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End TseNC-Pro CNC Machine -->
+
+            <!-- Project Group: Centrifugal Casting Machine -->
+            <section id="CastingMachine" class="skinny" >
+            <div class="project-group col-12">
+              <h3 class="project-title">Centrifugal Casting Machine</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <img src="assets/img/portfolio/CastingMachine01.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 
+                      <li align="justify">Design and build a casting machine for a university lab where students can cast soft metals with melting temperatures up to 1080°C</li>
+                      <li align="justify">It should be able to cast a range of materials with densities from Al (2560 kg/m3) to Au (19320 kg/m3)</li>
+                      <li align="justify">It should be able to cast parts with intricate detail (up to 25 𝜇𝑚)</li>
+                      <li align="justify">It should fit standard COTS components</li>
+                    </p>
+                    <a href="assets/img/portfolio/CastingMachine01.png" title="Schematic of casting machine and process" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <img src="assets/img/portfolio/CastingMachine02.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>How</h4>
+                    <p> 
+                      <li align="justify">Began with fluid mechanic calculations to determine the required force and torque and then worked backward following the flow of forces through the full machine</li>
+                      <li align="justify">Extensive calculations done on dynamic force flow and stress analysis</li>
+                      <li align="justify">CAD and fabrication plan created using Solidworks</li>
+                    </p>
+                    <a href="assets/img/portfolio/CastingMachine02.png" title="Section view of final CAD design" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                  <img src="assets/img/portfolio/CastingMachine03.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Result</h4>
+                    <p> 
+                      <li align="justify">Designed, fabricated and assembled mechanical components</li>
+                      <li align="justify">Designed and assembled the electronic components and tweaked the controller firmware to work with the purchased motor</li>
+                      <li align="justify">Created standard operating procedure based on German safety standards</li>
+                    </p>
+                    <a href="assets/img/portfolio/CastingMachine03.png" title="Final fabricated and assembled machine" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://github.com/Hinkleaj/Centrifugal_Casting_Machine" title="Files & Documentation" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End Centrifugal Casting Machine -->
+
+            <!-- Project Group: Interactive World Map -->
+            <section id="WorldMap" class="skinny">
+            <div class="project-group col-12">
+              <h3 class="project-title">Interactive World Map</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                  <img src="assets/img/portfolio/WorldMap01.JPG" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 
+                      <li align="justify">Interactive world map made of six panels in a 2x3 arrangement on a single backplate</li>
+                      <li align="justify">Each panel lights up with gesture control, and a sensor activates or deactivates the lights for specific parts of the map</li>
+                      <li align="justify">The map is shallow and made to hide electronics and wiring, designed to fit seamlessly as a wall piece</li>
+                    </p>
+                    <a href="assets/img/portfolio/WorldMap01.JPG" title="World map CAD concept" data-gallery="portfolio-gallery-books" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                  <img src="assets/img/portfolio/WorldMap02.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>How</h4>
+                    <p> 
+                      <li align="justify">Solidworks design and Fusion 360 CAMs</li>
+                      <li align="justify">Used ATMega328P in a homemade Arduino clone for gesture detection and control of LED strips programmed in Arduino IDE</li>
+                      <li align="justify">Made electronic blueprint and schematic with KiCAD, milled PCB and populated by hand</li>											
+                      <li align="justify">3D printed parts route and manage cables and an enclosure for system packaging</li>
+                    </p>
+                    <a href="assets/img/portfolio/WorldMap02.jpg" title="Brain of the map: homemade Arduino clone " data-gallery="portfolio-gallery-books" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                  <video src="assets/img/portfolio/WorldMap03.mp4" class="img-fluid video-thumbnail" muted loop autoplay></video>
+                  <div class="portfolio-info">
+                    <h4>Result</h4>
+                    <p> 
+                      <li align="justify">Completed a fully functional interactive world map with hidden electronics, sleek design, and backlit panels</li>
+                      <li align="justify">Successfully integrated gesture control with ultrasonic sensors to activate lighting</li>
+                      <li align="justify">Aesthetic and functional piece that blends art and smart technology with minimal visible hardware</li>
+                    </p>
+                    <a href="assets/img/portfolio/WorldMap03.mp4" title="Final fabricated and assembled project" data-gallery="portfolio-gallery-books" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://hinkleaj.github.io/Interactive_World_Map/" title="Files & Documentation" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End Interactive World Map -->
+
+            <!-- Project Group: LIDAR  -->
+            <section id="Ceilometer" class="skinny">
+            <div class="project-group col-12">
+              <h3 class="project-title">LIDAR Ceilometer</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="assets/img/portfolio/Ceilometer01.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 
+                      <li align="justify">R&D project focused on more accurate limitation of the maximum flight altitude for local pilots funded by a grant from Interreg Deutchland Nederland</li>											
+                      <li align="justify">Create proof of concept for a LIDAR device to measure the altitude of the cloud base in real time</li>
+                      <li align="justify">5-month internship at the Institute for Energy Transformation</li>
+                    </p>
+                    <a href="assets/img/portfolio/Ceilometer01.png" title="Transmission optics and electronics CAD assembly" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="assets/img/portfolio/Ceilometer02.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>How</h4>
+                    <p> 
+                      <li align="justify">Designed a device from a mix of COTS and custom parts based on calculations and research</li>
+                      <li align="justify">Solidworks for CAD design and Fusion360 for CAM</li>
+                      <li align="justify">Used Eagle to help design blueprint and schematic for PCBs for both the laser and detector circuits</li>
+                    </p>
+                    <a href="assets/img/portfolio/Ceilometer02.png" title="Collimation tube CAD and fabricated parts" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="assets/img/portfolio/Ceilometer03.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Result</h4>
+                    <p> 
+                      <li align="justify">Chose suitable laser, Multi-Pixel Photon Counter, band pass filter and lenses</li>
+                      <li align="justify">Designed and fabricated custom lens collimation tube and optics mounting system</li>
+                      <li align="justify">Built the necessary circuits and achieved proof of concept for the device</li>
+                    </p>
+                    <a href="assets/img/portfolio/Ceilometer03.png" title="Fabricated detector circuit with retainer for band pass filter" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="javascript:void(0)" title="Proprietary Project" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End LIDAR Ceilometer -->
+
+            <!-- Project Group: IVP Solver -->
+            <section id="IVPSolver" class="skinny">
+            <div class="project-group col-12">
+              <h3 class="project-title">IVP Solver</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="assets/img/portfolio/IVPSolver01.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 											
+                      <li align="justify">Co-project with Sophia Döring aimed at implementing three different numerical methods for solving IVPs</li>
+                      <li align="justify">Comparing efficiency and accuracy of solvers using different types of test problems with known analytical solutions</li>
+                      <li align="justify">Implement project in MATLAB</li>
+                    </p>
+                    <a href="assets/img/portfolio/IVPSolver01.png" title="Flowchart of implicit Euler method with step size based on second derivative" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="assets/img/portfolio/IVPSolver02.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>How</h4>
+                    <p> 											
+                      <li align="justify">Methods: constant step size implicit Euler solver using Newton-Raphson method, adaptive step algorithm based on ratio between first and second derivatives, and adaptive step algorithm based on minimizing MSE</li>
+                      <li align="justify">Test problems: Linear differential equation, a nonlinear differential equation, and an ODE with variable coefficients</li>
+                    </p>
+                    <a href="assets/img/portfolio/IVPSolver02.png" title="Function for Newton-Raphson method" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="assets/img/portfolio/IVPSolver03.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Result</h4>
+                    <p> 
+                      <li align="justify">Demonstrated advantages of using adaptive step size algorithms for numerical simulations, particularly for solving stiff differential equations or problems with rapidly varying solutions</li>
+                      <li align="justify">Code is annotated and presented in detail, in a clear and easy-to-follow format</li>
+                      <li align="justify">Externally relevant results and discussion</li>
+                    </p>
+                    <a href="assets/img/portfolio/IVPSolver03.png" title="Table from report showing some results" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://github.com/Hinkleaj/IVP_Solver" title="Files & Documentation" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End IVP Solver -->
+
+            <!-- Project Group: ROS Robot -->
+            <section id="ROSRobot" class="skinny">
+            <div class="project-group col-12">
+              <h3 class="project-title">ROS Robot</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="assets/img/portfolio/ROSRobot01.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 
+                      <li align="justify">TurtleBot-based project utilizing ROS for autonomous environment mapping in both simulated and real-world environments</li>
+                      <li align="justify">Created and configured a ROS workspace to implement publisher/subscriber nodes and robot control scripts</li>
+                      <li align="justify">Used simulation (Gazebo, RVIZ) and physical TurtleBot to map environments and perform autonomous navigation</li>
+                    </p>
+                    <a href="assets/img/portfolio/ROSRobot01.png" title="Python script to move turtlebot around its environment" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="assets/img/portfolio/ROSRobot02.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>How</h4>
+                    <p> 
+                      <li align="justify">Set up ROS Indigo in Linux/Ubuntu, created workspaces, and built packages using <code>catkin_make</code> and <code>catkin_create_pkg</code></li>
+                      <li align="justify">Simulated motion in Gazebo, RVIZ to visualize sensor data, and scripted actions in Python</li>
+                      <li align="justify">Used ROS Gmapping and Python scripts to autonomously navigate through target points</li>
+                      <li align="justify">Remotely connected, launched ROS nodes, and controlled bot using teleop packages</li>										
+                    </p>
+                    <a href="assets/img/portfolio/ROSRobot02.png" title="Real time mapping and navigation" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="assets/img/portfolio/ROSRobot03.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Result</h4>
+                    <p> 
+                      <li align="justify">Successfully implemented ROS nodes for real-time communication and robot control</li>
+                      <li align="justify">Demonstrated environment mapping and navigation in both simulated and real-world settings</li>
+                      <li align="justify">Achieved smooth obstacle avoidance and goal-oriented navigation</li>
+                      <li align="justify">Developed reusable scripts for mapping tasks and ensured reliable map-saving functionality</li>
+                    </p>
+                    <a href="assets/img/portfolio/ROSRobot03.jpg" title="Turtlebot navigating its environment" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="javascript:void(0)" title="Proprietary Project" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End ROS Robot -->
+
+            <!-- Project Group: Lego NXT Segway Robot -->
+            <section id="SegwayRobot" class="skinny">
+            <div class="project-group col-12">
+              <h3 class="project-title">Lego NXT Segway Robot</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="assets/img/portfolio/SegwayRobot01.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 
+                      <li align="justify">Program a Lego NXT Segway using MATLAB Simulink to implement a controller in the model</li>
+                      <li align="justify">Simulate both linear and nonlinear systems and compare them using reasonable initial conditions</li>
+                      <li align="justify">Create a state space controller to control the robot</li>
+                    </p>
+                    <a href="assets/img/portfolio/SegwayRobot01.png" title="MATLAB script for state space controller" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="assets/img/portfolio/SegwayRobot02.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>How</h4>
+                  <p> 
+                    <li align="justify">Set up a non-linear model of the plant based on differential equations, linearized the system, and generated State Space Model from state equations</li>
+                    <li align="justify">Checked for controllability using pole placement method to obtain the controller gains for the state space controller</li>
+                  </p>
+                  <a href="assets/img/portfolio/SegwayRobot02.png" title="Simulink model of plant" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <video src="assets/img/portfolio/SegwayRobot03.mp4" class="img-fluid video-thumbnail" muted loop autoplay></video>
+                <div class="portfolio-info">
+                  <h4>Result</h4>
+                  <p> 
+                    <li align="justify">Generated a closed loop control system for the state space model and plotted results for comparison</li>
+                    <li align="justify">Implemented State Space controller and applied it to the non-linear model</li>
+                    <li align="justify">Achieved stable control of physical Segway Robot</li>
+                  </p>
+                  <a href="assets/img/portfolio/SegwayRobot03.mp4" title="Segway robot in action" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="javascript:void(0)" title="Proprietary Project" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End Lego NXT Segway Robot -->
+
+        </div>
+      </div>
+    </section><!-- /Portfolio Section -->
 
 
-												
-												<h3>Mail</h3>
-												<p><a href='mail&#116;o&#58;&#37;&#54;3&#101;ltic&#99;o%6&#69;n%6&#53;ctio%6Es&#46;&#97;a%72&#111;%6E&#64;%6&#55;ma%6&#57;l&#46;com'>cel&#116;icco&#110;nections&#46;a&#97;r&#111;n&#64;gmai&#108;&#46;co&#109;</a></p>
-											</li>
-											<li>
-												<h3>Phone</h3>
-												<p>(800) 000-0000</p>
-											</li>
-										</ul>
-									</section>
-								</div>
-							<div class="col-12">
 
-							<a name="bottom" id="bottom"></a>
 
-								<!-- Copyright -->
-									<div id="copyright">
-										<ul class="links">
-											<li>&copy; HinkInc. All files and data are released for free under the <a href="https://github.com/Hinkleaj/Hinkleaj.github.io/blob/main/LICENSE">Creative Commons Attribution-ShareAlike 4.0 International</a> license. Feel free to use any part of it for any personal or commercial project &ndash; just please give me credit and keep it open source.</li>
-											<li>Dopetrope template by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a></a> released under the <a href="http://html5up.net/license/">Creative Commons Attribution</a> license
-											</li>
-										</ul>
-									</div>
+    <!-- Resume Section -->
+    <section id="education" class="resume section">
 
-							</div>
-						</div>
-					</div>
-				</section>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Education</h2>
+        <p>Education is an ongoing process but here's what I have so far...</p>
+      </div><!-- End Section Title -->
 
-		</div>
+      <div class="container">
 
-		<!-- Scripts -->
-			<script src="./assets/js/jquery.min.js"></script>
-			<script src="./assets/js/jquery.dropotron.min.js"></script>
-			<script src="./assets/js/browser.min.js"></script>
-			<script src="./assets/js/breakpoints.min.js"></script>
-			<script src="./assets/js/util.js"></script>
-			<script src="./assets/js/main.js"></script>
+        <div class="row">
 
-	</body>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Aaron Jay Hinkle</h4>
+              <p align="justify"><em>Originally from the mountains of Western Montana in the United States, I have spent the last eight years living in North Rhine-Westphalia in Western Germany to study mechanical engineering and robotics.<br><br>
+              I have been making and building things for more than 20 years so I have extensive experience with power tools and conventional manufacturing equipment. In addition to my practical manufacturing experience, I am skilled in 3D CAD modeling and simulation as well as mechanics, including a number of technical fortes like engineering design and FEA validation.<br><br>
+              I also graduated from FabAcademy in 2022, adding the digital fabrication toolbox to my repertoire. This includes familiarity with 3D printing, CNC machining, electronics design and production and embedded programming, as well as a number of soft skills such as time and project management.<br><br>
+              My love for making things is matched only by my love for teaching. I have formal training in education and I have been teaching or tutoring professionally for over ten years. I currently work as a Research Associate in Mechanics at the Rhine-Waal University of Applied Science. My academic and research endeavors primarily revolve around the integration of bionic principles into manufacturing, aiming to advance the field through innovative research and practical applications.<br><br></em></p>
+            </div><!-- End Summary -->
+
+            <h3 class="resume-title">Fab Academy</h3>
+            
+            <div class="resume-item">
+              <img src="assets/img/FAScreenshot.png" class="img-fluid" alt="">
+              <h5>Class of 2022</h5>
+              <p align="justify"><em><a href="https://fabacademy.org">Fab Academy</a> is an intensive, hands-on program focused on digital fabrication. The pedagogical foundations come from MIT's renowned rapid prototyping course, "How to Make (Almost) Anything". The curriculum is structured around 20, week-long, intensive seminars that cover both core and interdisciplinary aspects of rapid prototyping and the technologies and workflows involved. Students plan and execute a new project each week and comprehensively document it on a personal website and GIT repo, resulting in unique individual portfolios of technical accomplishments. The course culminates in a final project, where participants apply the breadth of their learning to bring a big idea into reality.
+              </em></p>
+              <p align="center"><a href="https://fabacademy.org/2022/labs/kamplintfort/students/aaron-hinkle/index.html" class="button">My Fab Academy website</a></p>
+            </div><!-- End Fab Academy -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">University</h3>
+            <div class="resume-item">
+              <h4>MSc in Bionics, Focus: Robotics</h4>
+              <h5>2021 - 2024</h5>
+              <p><em>Rhine-Waal University of Applied Science, Kleve, Germany </em></p>
+              <ul>
+                <li>Grade: German GPA: 1.7, Equivalent: 88% (Modified Bavarian Formula)</li>
+                <li align="justify">The focus of the MSc Bionics - Robotics specialization is on biomimetic intelligence and autonomy in robotic systems and systems of robots.</li>
+                <li><a href="">Transcript</a></li>
+              </ul>
+            </div><!-- End MSc in Bionics -->
+
+            <div class="resume-item">
+              <h4>BSc in Mech Eng, Focus: Simulation &amp; Validation</h4>
+              <h5>2016 - 2021</h5>
+              <p><em>Rhine-Waal University of Applied Science, Kleve, Germany</em></p>
+              <ul>
+                <li>Grade: German GPA: 2.2, Equivalent: 80% (Modified Bavarian Formula)</li>
+                <li align="justify">The Mechanical Engineering program links technical fundamentals with key soft skills and management competencies. The goal is to convey flexible expertise and sound methodology in combination with the latest technological developments to provide training which stays relevant in the future.</li>
+                <li><a href="">Transcript</a></li>
+              </ul>
+            </div><!-- End BSc in Mech Eng -->     
+            
+            <div class="resume-item">
+              <h4>BSc in Physics (incomplete)</h4>
+              <h5>2011 - 2013</h5>
+              <p><em>Indiana/ Purdue University, Fort Wayne Indiana</em></p>
+              <ul>
+                <li>Grade: American GPA: 3.78</li>
+                <li>Member of Dean's List</li>
+                <li>Member of American Physics Association</li>
+                <li><a href="">Transcript</a></li>
+              </ul>
+            </div><!-- End BSc in Physics --> 
+
+            <div class="resume-item">
+              <h4>BA in Secondary Education (incomplete)</h4>
+              <h5>2003 - 2005</h5>
+              <p><em>Saint Francis University, Fort Wayne Indiana</em></p>
+              <ul>
+                <li>Grade: American GPA: 2.21</li>
+                <li><a href="">Transcript</a></li>
+              </ul>
+              <h5>2002 - 2003</h5>
+              <p><em>Taylor University, Fort Wayne Indiana</em></p>
+              <ul>
+                <li>Grade: American GPA: 3.69</li>
+                <li>Member of Dean's List</li>
+                <li><a href="">Transcript</a></li>
+              </ul>
+            </div><!-- End BA in Secondary Education --> 
+          </div>
+        </div>
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Technical Skills</h2>
+        <p>A few of the skills and technical fortes I am familiar with...</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+                <h3>Hard Skills</h3>              
+              <p>
+                <ul>
+                  <li>Machine Design</li>
+                  <li>Mechanical Engineering</li>
+                  <li>Design Engineering</li>
+                  <li>3D Modeling / CAD / CAM</li>
+                  <li>University Teaching</li>
+                  <li>Laboratory Management</li>
+                  <li>Conventional Machining</li>
+                  <li>Creative Problem Solving</li>
+                  <li>Web Design</li>
+                  <li>GitHub</li>
+                  <li>Computer Simulation and Validation</li>
+                  <li>Artificial Intelligence</li>
+                  <li>Machine Learning</li>
+                  <li>Remote Sensing</li>
+                  <li>Evolutionary Algorithms</li>
+                </ul>
+              </p>
+            </div>
+          </div><!-- End Hard Skills -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">              
+              <h3>Digital Fabrication</h3>
+              <p>
+                <ul>
+                  <li>3D Printing</li>
+                  <li>CNC Machining</li>
+                  <li>Laser Cutting</li>
+                  <li>Electronics Hardware Design</li>
+                  <li>PCB Design</li>
+                  <li>Vinyl Cutting</li>
+                  <li>Mold Design</li>
+                  <li>Casting</li>
+                  <li>Embedded Programming</li>
+                  <li>3D Scanning</li>
+                  <li>Soldering</li>
+                  <li>Arduino / IDE</li>
+                  <li>CNC Embroidery</li>
+                </ul>
+              </p>
+            </div>
+          </div><!-- End Digital Fabrication -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">              
+              <h3>Software</h3>              
+              <p>
+                <ul>
+                  <li>SOLIDWORKS</li>
+                  <li>Autodesk Fusion 360</li>
+                  <li>Bash Terminal</li>
+                  <li>Visual Studio Code</li>
+                  <li>Universal Gcode Sender</li>
+                  <li>VisiCut</li>
+                  <li>Inkscape</li>
+                  <li>ANSYS Static Structural</li>
+                  <li>KiCAD</li>
+                  <li>MIT Mods</li>
+                  <li>Candle</li>
+                  <li>Blender</li>
+                  <li>Ultimaker Cura</li>
+                  <li>JupyterLab</li>
+                </ul>
+              </p>            
+            </div>
+          </div><!-- End Software -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <h3>Soft Skills</h3>
+              <p>
+                <ul>
+                  <li>Project Management</li>
+                  <li>Time Management</li>
+                  <li>Organization Skills</li>
+                  <li>Team Leadership</li>
+                  <li>Communication</li>                  
+                </ul>
+              </p>
+            </div>
+          </div><!-- End Soft Skills -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <h3>Programming Languages</h3>
+              <p>
+                <ul>
+                  <li>C++</li>
+                  <li>HTML/CSS</li>
+                  <li>MATLAB</li>
+                  <li>Simulink</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>LaTeX</li>                  
+                </ul>
+              </p>
+            </div>
+          </div><!-- End Programming Languages -->
+
+        </div>
+      </div>
+    </section><!-- End Technical Skills Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section accent-background">
+
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/AlexanderStruck.png" class="testimonial-img" alt="">
+                <h3>Prof. Dr. Alexander Struck </h3>
+                <h4>Theoretical Physics</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Aaron is a very friendly person who is well respected...for his open mind, easy accessibility and his calm and respectful attitude...(his) scientific and social skills make him a valuable member of any research team.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/KimJacobs.jpg" class="testimonial-img" alt="">
+                <h3>Kimberly E. Jacobs</h3>
+                <h4>Proprietor: JK O'Donnell's</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>(Aaron) has shown tremendous dedication to his job and great pride in his work...He has become a true asset to my team and one of my most dependable, valuable employees.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/NielsOstergaard.jpg" class="testimonial-img" alt="">
+                <h3>Prof. Niels Højen Østergaard, PhD</h3>
+                <h4>Professor: Engineering Mechanics</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Aaron has, through active participation and a strong personal drive, obtained results way above the average and has exceeded the expectations I have for bachelor students in these particular fields...As a person, Aaron is friendly of nature and acts independently as a pro-active engineering student with a talent for problem solving.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+<!--            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> End testimonial item -->
+
+<!--            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div> End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>In case you want to get in touch with me...</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-linkedin flex-shrink-0"></i>
+                <div>
+                  <h3 align="center">Social Media</h3>
+                  <p align="center">
+                    <a href="https://www.linkedin.com/in/aaron-hinkle-545ba0251/" class="button">LinkedIn</a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End Social Media -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3 align="center">Address</h3>
+                  <p align="center">Klever Str. 17, 47559 Kranenburg, Germany</p>
+                </div>
+              </div>
+            </div><!-- End Address -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3 align="center">Email</h3>
+                  <p align="center"><a href='mail&#116;o&#58;&#37;&#54;3&#101;ltic&#99;o%6&#69;n%6&#53;ctio%6Es&#46;&#97;a%72&#111;%6E&#64;%6&#55;ma%6&#57;l&#46;com'>cel&#116;icco&#110;nections&#46;a&#97;r&#111;n&#64;gmai&#108;&#46;co&#109;</a></p>
+                </div>
+              </div>
+            </div><!-- End Email -->
+
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+    
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>©<strong class="px-1 sitename">HinkInc.</strong> <span>All files and data are released for free under the <a href="https://github.com/Hinkleaj/Hinkleaj.github.io/blob/main/LICENSE">Creative Commons Attribution-ShareAlike 4.0 International</a> license. Feel free to use any part for any personal or commercial project &ndash; just please give me credit and keep it open source.</span><br><br></p>
+      </div>
+      
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        <a href="https://bootstrapmade.com/">BootstrapMade</a> HTML template for <strong class="px-1 sitename">DevFolio</strong>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
