@@ -49,10 +49,13 @@
               <li><a href="#TseNC-Pro">TseNC-Pro CNC Machine</a></li>              
               <li><a href="#CastingMachine">Centrifugal Casting Machine</a></li>
               <li><a href="#WorldMap">Interactive World Map</a></li>
-              <li><a href="#Ceilometer">LIDAR Ceilometer</a></li>
-              <li><a href="#IVPSolver">IVP Solver</a></li>
+              <li><a href="#Ceilometer">LIDAR Ceilometer</a></li>              
               <li><a href="#ROSRobot">ROS Robot</a></li>
               <li><a href="#SegwayRobot">Lego NXT Segway Robot</a></li>
+              <li><a href="#LiftPointFEA">LiftPoint FEA</a></li>
+              <li><a href="#IVPSolver">IVP Solver</a></li>
+
+              LiftPointFEA
 <!--          <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#">Deep Dropdown 1</a></li>
@@ -291,50 +294,7 @@
             </div>
             </section><!-- End LIDAR Ceilometer -->
 
-            <!-- Project Group: IVP Solver -->
-            <section id="IVPSolver" class="skinny">
-            <div class="project-group col-12">
-              <h3 class="project-title">IVP Solver</h3>
-              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                  <img src="./assets/img/portfolio/IVPSolver01.png" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>What</h4>
-                    <p> 											
-                      <li align="justify">Co-project with Sophia Döring aimed at implementing three different numerical methods for solving IVPs</li>
-                      <li align="justify">Comparing efficiency and accuracy of solvers using different types of test problems with known analytical solutions</li>
-                      <li align="justify">Implement project in MATLAB</li>
-                    </p>
-                    <a href="./assets/img/portfolio/IVPSolver01.png" title="Flowchart of implicit Euler method with step size based on second derivative" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                  <img src="./assets/img/portfolio/IVPSolver02.png" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>How</h4>
-                    <p> 											
-                      <li align="justify">Methods: constant step size implicit Euler solver using Newton-Raphson method, adaptive step algorithm based on ratio between first and second derivatives, and adaptive step algorithm based on minimizing MSE</li>
-                      <li align="justify">Test problems: Linear differential equation, a nonlinear differential equation, and an ODE with variable coefficients</li>
-                    </p>
-                    <a href="./assets/img/portfolio/IVPSolver02.png" title="Function for Newton-Raphson method" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                  <img src="./assets/img/portfolio/IVPSolver03.png" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                    <h4>Result</h4>
-                    <p> 
-                      <li align="justify">Demonstrated advantages of using adaptive step size algorithms for numerical simulations, particularly for solving stiff differential equations or problems with rapidly varying solutions</li>
-                      <li align="justify">Code is annotated and presented in detail, in a clear and easy-to-follow format</li>
-                      <li align="justify">Externally relevant results and discussion</li>
-                    </p>
-                    <a href="./assets/img/portfolio/IVPSolver03.png" title="Table from report showing some results" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="https://github.com/Hinkleaj/IVP_Solver" title="Files & Documentation" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </section><!-- End IVP Solver -->
+
 
             <!-- Project Group: ROS Robot -->
             <section id="ROSRobot" class="skinny">
@@ -428,6 +388,100 @@
               </div>
             </div>
             </section><!-- End Lego NXT Segway Robot -->
+
+            <!-- Project Group: LiftPoint FEA -->
+            <section id="LiftPointFEA" class="skinny">
+            <div class="project-group col-12">
+              <h3 class="project-title">LiftPoint Finite Element Analysis</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="./assets/img/portfolio/LiftPointFEA1.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 
+                      <li align="justify">Performed FEA on a 20-ton lifting point to ensure it withstands maximum working loads without yielding or rupturing</li>
+                      <li align="justify">Examined the lifting point under two load cases at varying orientations with safety factors for plastic yielding and rupture</li>
+                    </p>
+                    <a href="./assets/img/portfolio/LiftPointFEA1.png" title="Analyzed Lifting Point (B-ABA 20t - M24)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="./assets/img/portfolio/LiftPointFEA2.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>How</h4>
+                  <p> 
+                    <li align="justify">Simplified CAD geometry and utilized ANSYS Workbench for the FEA, applying symmetric loading and boundary conditions</li>
+                    <li align="justify">Simulated various load cases with both default and refined mesh to ensure convergence in stress results</li>
+                    <li align="justify">Selected a high-strength quenched and tempered alloy steel (34CrNiMo6) based on stress analysis and material properties</li>
+                  </p>
+                  <a href="./assets/img/portfolio/LiftPointFEA2.png" title="Mesh metrics showing element quality of final mesh for load case 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                  <img src="./assets/img/portfolio/LiftPointFEA3.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Result</h4>
+                  <p>
+                    <li align="justify">Simulation results indicated that maximum local stress remains well within allowable limits, validating the material choice for durability</li>
+                    <li align="justify">Final material selection provided a safe design capable of handling extreme loads without failure</li>
+                    <li align="justify">Achieved a stress distribution below yield strength for the specified material, confirming the design's integrity</li>
+                  </p>
+                  <a href="./assets/img/portfolio/LiftPointFEA3.png" title="Total deformation solution for load case 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="javascript:void(0)" title="Proprietary Project" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End LiftPoint FEA -->
+
+
+
+
+
+            <!-- Project Group: IVP Solver -->
+            <section id="IVPSolver" class="skinny">
+            <div class="project-group col-12">
+              <h3 class="project-title">IVP Solver</h3>
+              <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="./assets/img/portfolio/IVPSolver01.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>What</h4>
+                    <p> 											
+                      <li align="justify">Co-project with Sophia Döring aimed at implementing three different numerical methods for solving IVPs</li>
+                      <li align="justify">Comparing efficiency and accuracy of solvers using different types of test problems with known analytical solutions</li>
+                      <li align="justify">Implement project in MATLAB</li>
+                    </p>
+                    <a href="./assets/img/portfolio/IVPSolver01.png" title="Flowchart of implicit Euler method with step size based on second derivative" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="./assets/img/portfolio/IVPSolver02.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>How</h4>
+                    <p> 											
+                      <li align="justify">Methods: constant step size implicit Euler solver using Newton-Raphson method, adaptive step algorithm based on ratio between first and second derivatives, and adaptive step algorithm based on minimizing MSE</li>
+                      <li align="justify">Test problems: Linear differential equation, a nonlinear differential equation, and an ODE with variable coefficients</li>
+                    </p>
+                    <a href="./assets/img/portfolio/IVPSolver02.png" title="Function for Newton-Raphson method" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                  <img src="./assets/img/portfolio/IVPSolver03.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Result</h4>
+                    <p> 
+                      <li align="justify">Demonstrated advantages of using adaptive step size algorithms for numerical simulations, particularly for solving stiff differential equations or problems with rapidly varying solutions</li>
+                      <li align="justify">Code is annotated and presented in detail, in a clear and easy-to-follow format</li>
+                      <li align="justify">Externally relevant results and discussion</li>
+                    </p>
+                    <a href="./assets/img/portfolio/IVPSolver03.png" title="Table from report showing some results" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://github.com/Hinkleaj/IVP_Solver" title="Files & Documentation" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section><!-- End IVP Solver -->
 
         </div>
       </div>
